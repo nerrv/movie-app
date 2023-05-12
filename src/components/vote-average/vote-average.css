@@ -1,0 +1,9 @@
+.card__vote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 50%;
+}

@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.movie-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 16px;
+}
+
+@media (min-width: 1200px) {
+  .movie-app {
+    padding: 36px;
+  }
+}
